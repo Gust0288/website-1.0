@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Dancing_Script';
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color: black;
+}
+
+main{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 7px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 1em 0 0;
+    
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Dancing_Script;
+    color: rgb(246, 246, 246); 
+    border-style: ridge;
+    border-radius: 50%;  
+    border-width: 5px;
+    margin: 5px;
+    padding: 10px;
+    
+  }
+  a:hover {
+    color: #99d0e3;
+}
+
+
+h1{
+    grid-column: 2;
+    color: rgb(157, 200, 238);
+    font-family: Dancing_Script;
+    text-align: center;
+    padding-right: 25%;
+}
+/* .h1_passion{
+    grid-column: 1;
+} */
+h2{
+    color: rgb(157, 200, 238);    
+    font-family: Dancing_Script;
+    grid-column: 2;
+    text-align: center;
+   
+}
+.h2_layout{
+    font-size: 200%;
+}
+h3{
+    color: aliceblue;
+    font-family: Dancing_Script;
+    grid-column: 2;
+    text-align: center;
+    
+}
+video{
+   width: 100%;
+   height: auto;
+   grid-column: span 3;
+   border-style: dotted;
+   padding-top: 8%;
+   color: aliceblue;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: span 3;
+    border-style: dotted;
+    border-color: aliceblue;
+   
+}
+#img4{
+    width: 100%;
+    grid-column: span 2;
+   grid-column: 1;
+   grid-row: span 5;
+}
+#img5{
+    width: 100%;
+    grid-column: span 3;
+    grid-row: 6;
+}
+
+#youtube{
+    grid-row: 4;
+    grid-column: 2;
+    margin: 15px;
+}
+
+
+/* #set_photos{
+    display: grid;
+    grid-column: span 3;
+    grid-column-gap: 10px;
+    
+} */
+/* #set_photos h2{
+    grid-row: 1;
+    grid-column: 2;
+    color: rgb(157, 200, 238);    text-align: center;
+    font-family: Dancing_Script;
+} */
+
+/* div photos-set */
+
+#img1{
+    width: 100%;
+  
+    
+}
+#img2{
+    width: 100%;
+}
+#img3{
+    width: 100%;
+  
+}
+
+/* --------------------- */
+
+@media (max-width: 850px){
+
+    #info{
+        font-size: 70%;
+    }
+
+    
+
+}
+@media (min-width: 850px){
+
+    #info{
+        font-size: 150%;
+    }
+
+    
+
+}
+
